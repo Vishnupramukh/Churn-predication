@@ -1,0 +1,52 @@
+{
+  "accuracy": 73.7,
+  "precision": 61.8,
+  "recall": 51.8,
+  "f1_score": 56.4,
+  "classifier_scores": {
+    "Logistic Regression": 71.6,
+    "Nearest Neighbors": 69.7,
+    "Naive Bayes": 73.2,
+    "Decision Tree": 73.6,
+    "Random Forest": 73.5,
+    "AdaBoost": 75.6,
+    "Gradient Boosting": 75.7,
+    "Neural Net": 75.5,
+    "XGBoost": 73.7
+  },
+  "feature_importances": {
+    "CreditScore": 0.2353,
+    "EstimatedSalary": 0.1704,
+    "Age": 0.1626,
+    "Balance": 0.1302,
+    "Tenure": 0.0992,
+    "Geography": 0.07,
+    "NumOfProducts": 0.0561,
+    "Gender": 0.0262,
+    "IsActiveMember": 0.026,
+    "HasCrCard": 0.024
+  },
+  "feature_names": [
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary"
+  ],
+  "confusion_matrix": [
+    [
+      1134,
+      210
+    ],
+    [
+      316,
+      340
+    ]
+  ],
+  "churn_rate": 32.4
+}
